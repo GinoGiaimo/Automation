@@ -11,6 +11,10 @@ import org.testng.annotations.Test;
 
 import com.files.driver.DriverFactory;
 
+//@FindBy(css = "a.lgpd-banner--button")
+//private WebElement buttonEntendiCookies;
+
+
 public class DespegarTest {
 	WebDriver driver;
 	WebDriverWait wait = null;
@@ -39,9 +43,9 @@ public class DespegarTest {
 		  		+ "div.sbox5-3-input.sbox5-3-validation.-top-right.-lg.-icon-left input.input-tag"));
 		  destino.click();
 		  destino.sendKeys("Sevilla");
-		  Thread.sleep(1000);
+		  Thread.sleep(2000);
 		  destino.sendKeys(Keys.CONTROL);
-		  Thread.sleep(1000);		  
+		  Thread.sleep(2000);		  
 		  destino.sendKeys(Keys.ENTER);
 		  
 		  //Buscar y seleccionar el elemento para fecha de entrada

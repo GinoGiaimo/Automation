@@ -30,7 +30,7 @@ public class DriverFactory {
 	  }
 	  case EDGE:
 	  {
-		  System.setProperty("webdriver.gecko.driver", "C:/Drivers/msedgedriver.exe");
+		  System.setProperty("webdriver.edge.driver", "C:/Drivers/msedgedriver.exe");
 		  Reporter.log("Abrir navegador Edge");
 		  driver = new EdgeDriver();
 		  break;
