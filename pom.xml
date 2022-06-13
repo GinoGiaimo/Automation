@@ -56,7 +56,9 @@
                     <configuration>
                         <suiteXmlFiles>
                             <!--suppress UnresolvedMavenProperty -->
-                            <suiteXmlFile>testSuites/testng.xml</suiteXmlFile>
+                            <!--<suiteXmlFile>testSuites/testng.xml</suiteXmlFile>-->
+                            <!-- <suiteXmlFile>testSuites/testngWiki.xml</suiteXmlFile>-->
+                            <suiteXmlFile>testSuites/testngDespegar.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
